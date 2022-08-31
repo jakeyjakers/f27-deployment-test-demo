@@ -2,7 +2,7 @@ const express = require('express')
 
 const path = require('path')
 
-const app = express();
+const app = express()
 
 ////endpoints
 
@@ -11,8 +11,7 @@ app.get('/', (req, res) => {
 })
 
 
+const port = process.env.PORT || 4005
 
-
-const port = 4005
 app.listen(port, () => console.log(`listening on port ${port}`))
 
