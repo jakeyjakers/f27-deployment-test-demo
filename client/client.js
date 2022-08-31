@@ -5,3 +5,11 @@ const hello = () => {
 hello()
 
 setTimeout(hello, 10000)
+
+const btn = document.querySelector('button')
+
+const alertMe = () =>{
+    alert(`You're such an amazing perosn`)
+}
+
+btn.addEventListener('click', alertMe)
